@@ -1,29 +1,52 @@
-# Sign-Language-to-Text-Conversion
+<br/>
+<div align="center">
+
+<h3 align="center">Coronary Artery Disease (CAD) Detection</h3>
+<p align="center">
+Machine Learning-Based Prediction System
 
 
-<img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/c05968c1-ec75-4056-91c1-d24c55c187bf" />
+</p>
+</div>
 
-💡 Ever wondered if Artificial Intelligence can understand sign language and convert it into text in real-time?
-In this video, I’ll show you how I built a Sign Language to Text Translator using Flask, TensorFlow, OpenCV, and Machine Learning — a complete end-to-end Computer Vision AI project. 🎯
+## About The Project
 
-We’ll go step by step:
-✅ Preprocessing hand gesture and sign language images ✋
-✅ Training a deep learning model with TensorFlow & Keras
-✅ Integrating the model with a Flask web application
-✅ Adding real-time webcam support for live translation
-✅ Deploying the project inside a Docker container 🐳
+This project focuses on developing an efficient machine learning-based diagnostic system for predicting Coronary Artery Disease (CAD) using clinical data. The goal is to assist in early detection and improve decision-making in healthcare through accurate and reliable predictions.
 
-This is a full AI + Machine Learning project, perfect for students, developers, or anyone building a strong portfolio in Computer Vision and Deep Learning.
+The dataset was preprocessed using data cleaning techniques, label encoding, and feature scaling to ensure high-quality input for model training. Feature selection was performed using the SelectKBest algorithm to identify the most relevant attributes influencing CAD prediction.
 
-✨ By the end of this video, you’ll learn how to:
-• Build an end-to-end Flask + AI web app
-• Train and test a model for gesture recognition
-• Convert sign language into readable text instantly
-• Deploy your entire project using Docker for scalability
+Multiple machine learning models were implemented and evaluated, including Logistic Regression, Random Forest, k-Nearest Neighbors (KNN), Gaussian Naive Bayes, and Decision Tree. An ensemble-based approach was also explored to improve overall model performance.
 
-📌 Technologies Used: Python, Flask, OpenCV, TensorFlow, Keras, NumPy, Docker
+The final model achieved strong results in terms of accuracy, precision, recall, and F1-score, demonstrating its effectiveness as a non-invasive and cost-efficient tool for CAD detection. This project highlights the potential of machine learning in enhancing early diagnosis and improving healthcare outcomes.
 
-💬 If you’re starting in AI or Machine Learning, this tutorial will show you how to turn a real-world problem into a working, interactive web application!
+### Built With
 
-🔔 Subscribe for more projects on AI, ML, and Computer Vision: @SouvikChai
-📢 Share this video with friends who love building Machine Learning and Flask projects!
+- [Python](https://www.python.org/)
+- [Scikit-learn (sklearn)](https://scikit-learn.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [NumPy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Jupyter Notebook](https://jupyter.org/)
+
+## Features
+
+- Data preprocessing (cleaning, encoding, scaling)
+- Feature selection using SelectKBest
+- Multiple ML models implementation
+- Ensemble learning approach
+- Performance evaluation using standard metrics
+- Visualization of results (graphs, confusion matrix)
+
+## Future Improvements
+
+- Integration with real-time healthcare systems
+- Deployment as a web application
+- Use of deep learning models for enhanced accuracy
+- Larger dataset integration for improved generalization
+
+## Contact
+
+Aman Kumar  
+📩 amkumar4002@gmail.com  
+
+Project Link: https://github.com/amkumar4002-debug/coronary-artery-disease-detection
